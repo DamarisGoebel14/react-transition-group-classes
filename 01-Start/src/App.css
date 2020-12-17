@@ -39,6 +39,8 @@ section {
   margin: 0 auto;
 }
 
+/*------FADE------*/
+
 /* appear - on page load */
 .fade-appear {
     opacity: 0;
@@ -48,6 +50,7 @@ section {
   opacity: 1;
   transition: opacity 1000ms linear;
 }
+
 
 /* enter */
 .fade-enter {
@@ -70,6 +73,9 @@ section {
 .fade-exit-done {
   opacity: 0;
 }
+
+/* ---SLIDE--- */
+
 
 /* slide enter */
 .slide-enter {
@@ -103,6 +109,7 @@ section {
   position: relative;
   max-width: 226px;
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 .card {
